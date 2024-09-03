@@ -1,0 +1,68 @@
+/* src/styles/custom.css */
+
+/* General Styles */
+body {
+    background-color: #f0f8ff; /* Light blue background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font settings */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Adjust padding for better spacing */
+  }
+  
+  h1 {
+    color: #333; /* Dark gray color for headings */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  /* Search Bar */
+  .input-group {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .input-group .form-control {
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group .btn {
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-group .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Weather Display and Forecast */
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  /* Weather Icons */
+  img {
+    width: 50px;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .input-group {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  
+    .card {
+      margin-bottom: 20px;
+    }
+  }
